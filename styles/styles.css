@@ -1,5 +1,4 @@
 
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -72,6 +71,12 @@ body{
     margin: 0 auto;
 }
 
+h2{
+    color: #e46965;
+    font-size: 42px;
+    font-weight: 300;
+}
+
 /*
   ==========================================================
   main navigation
@@ -123,8 +128,38 @@ nav{
 
 
 
+/*
+  ==========================================================
+ Header / site title
+  ==========================================================
+*/
+
+header{
+    line-height: 10px;
+    text-align: center;
+
+}
+header h1{
+    font-size: 42px;
+
+}
+
+header h3{
+    color: #e46965;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
 
 
+/*
+  ==========================================================
+ Feature
+  ==========================================================
+*/
 
+.feature{
+    background-color: #363636;
+    padding: 10px;
+}
 
 

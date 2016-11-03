@@ -4,6 +4,10 @@
    License: none (public domain)
 */
 
+*{
+    box-sizing: border-box;
+}
+
 html, body, div, span, applet, object, iframe,
 p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -32,6 +36,7 @@ footer, header, menu, nav, section {
 body {
     line-height: 1;
     font-family: Arial, sans-serif;
+
 
 }
 ol, ul {
@@ -159,7 +164,58 @@ header h3{
 
 .feature{
     background-color: #363636;
-    padding: 10px;
+}
+
+.feature-list{
+    background: url("../images/feature-bg.jpg") top center no-repeat;
+    height: 300px;
+    text-align: center;
+}
+
+.feature-list li{
+    display: inline-block;
+    width: 33%;
+    padding-top: 130px;
+    height: 300px;
+    border-right: 1px solid white;
+}
+
+.feature-list li a{
+    text-decoration: none;
+}
+
+.feature-list li a img{
+    margin-bottom: 0px;
+}
+
+.feature-list li a h3{
+    /*making it clickable wherever in between the 2 elements*/
+    margin-top: 0;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    opacity: 0.55;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.feature-list li a:hover .feature-title{
+    opacity: 1;
+}
+
+.feature-list li:first-child{
+    border-left: 1px solid white;
+}
+
+
+/*
+  ==========================================================
+  Portfolio
+  ==========================================================
+*/
+
+.portfolio-samples{
+    background-color: #dadada;
 }
 
 

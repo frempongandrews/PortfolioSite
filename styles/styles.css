@@ -67,6 +67,11 @@ body{
     letter-spacing: 0.4px;
 }
 
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 /*
   ==========================================================
   main navigation
@@ -75,5 +80,51 @@ body{
 
 nav{
     background-color: #dadada;
+    /*setting height parent*/
+    height: 40px;
 }
+
+.nav-list, .social-list{
+    list-style: none;
+}
+
+.nav-list{
+    float: left;
+}
+
+.nav-list li, .social-list li{
+    float: left;
+
+}
+
+.nav-list li{
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.nav-list li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+/*.nav-list{*/
+    /*padding-top: 10px;*/
+/*}*/
+
+.social-list{
+    float: right;
+    margin-top: 5px;
+}
+
+.social-list li{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
 

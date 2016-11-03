@@ -115,8 +115,16 @@ nav{
 .nav-list li a{
     color: #fff;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
 
 }
+
+.nav-list li a:hover{
+    color: #e46965;
+
+}
+
+
 
 /*.nav-list{*/
     /*padding-top: 10px;*/
@@ -207,6 +215,10 @@ header h3{
     border-left: 1px solid white;
 }
 
+.body-text>p{
+    line-height: 18px;
+}
+
 
 /*
   ==========================================================
@@ -216,6 +228,167 @@ header h3{
 
 .portfolio-samples{
     background-color: #dadada;
+    /*height: 300px;*/
 }
 
+.portfolio-samples>.container>h2{
+    padding-top: 10px;
+}
+
+.portfolio-list{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding-bottom: 10px;
+}
+
+.portfolio-list li {
+    height: 210px;
+    flex: 0 0 210px;
+    position: relative;
+}
+
+.portfolio-list li:last-child{
+    margin-right: 0px;
+}
+
+.port-laptops{
+    background: url("../images/laptops.jpg") center center no-repeat;
+}
+.port-acme{
+    background: url("../images/acme-logo.jpg") -233px -60px no-repeat;
+}
+.port-demoreel{
+    background: url("../images/tablet.jpg") center center no-repeat;
+}
+.port-logo{
+    background: url("../images/a-logo.jpg") -340px -153px no-repeat;
+}
+
+
+.caption{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+
+
+.caption a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 60px;
+}
+
+.caption img{
+    position: absolute;
+    right: 5px;
+}
+
+
+
+/*
+  ==========================================================
+  Footer
+  ==========================================================
+*/
+
+footer{
+    background-color: #252525;
+
+}
+
+.footer-title{
+    color: #e46965;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.col-one-third{
+    height: 315px;
+}
+
+footer> .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col-one-third{
+    align-items: flex-start;
+}
+
+.blog-title{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.blog-date{
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.address-container>p{
+    margin-bottom: 15px;
+}
+
+.address-container, .blog-container, .address-container a{
+    color: #848484;
+}
+
+.address-container a{
+    text-decoration: none;
+}
+
+.address-container>p:nth-child(3){
+    margin-top: -10px;
+}
+
+.form-container>form>input{
+    margin: 10px 0px;
+    height: 40px;
+    width: 300px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.form-container>form>input:focus{
+    outline-color: #e46965;
+}
+
+.form-container>form>input:first-child{
+    margin-top: 0px;
+}
+
+.form-container>form>input:last-child{
+    outline: none;
+    background-color: #e46965;
+    border: none;
+    font-size: 24px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.form-container>form>input:last-child:hover{
+    cursor: pointer;
+    background-color: #e0544f;
+}
+
+.copyright{
+    text-align: center;
+    height: 40px;
+    color: #414141;
+    background-color: #0e0e0e;
+    line-height: 40px;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: #ffffff;
+}
 

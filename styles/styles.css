@@ -238,7 +238,7 @@ header h3{
 .portfolio-list{
     display: flex;
     justify-content: space-around;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     padding-bottom: 10px;
 }
 
@@ -280,7 +280,8 @@ header h3{
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    width: 60px;
+    width: 80px;
+
 }
 
 .caption img{
@@ -399,7 +400,7 @@ footer> .container{
   ==========================================================
 */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 899px) {
     nav{
         background-color: red;
     }
@@ -407,9 +408,54 @@ footer> .container{
         padding: 0 10px
     }
 
+
+    /*----------feature section----------*/
+
     .feature-list{
         padding: 0px;
         margin: 0 10px;
     }
 
+    .feature-list{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .feature-list li{
+        width: 100%;
+    }
+
+    .feature-list li>a{
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+
+    .feature-list li>a h3{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+
+
+    /*--------- portfolio section ------------*/
+
+    .portfolio-list{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-list li {
+        /*height: 210px;*/
+        flex: 1 1 25%;
+    }
+
 }
+
+
+/*at max 640px*/
+
+/*nav hamburger*/
+
+/*info-blog section vertical*/

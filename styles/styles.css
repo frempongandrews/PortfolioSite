@@ -392,3 +392,24 @@ footer> .container{
     color: #ffffff;
 }
 
+
+/*
+  ==========================================================
+  Media Queries
+  ==========================================================
+*/
+
+@media screen and (max-width: 900px) {
+    nav{
+        background-color: red;
+    }
+    .container{
+        padding: 0 10px
+    }
+
+    .feature-list{
+        padding: 0px;
+        margin: 0 10px;
+    }
+
+}

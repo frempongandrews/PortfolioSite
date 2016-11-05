@@ -413,31 +413,6 @@ footer > .container {
         background-color: red;
     }
 
-    .hamburger-menu-icon{
-        display: inline-block;
-        margin-top: 5px;
-        cursor: pointer;
-    }
-
-    .nav-list{
-        display: none;
-        position: absolute;
-        background-color: #111;
-        top: 40px;
-        left: 0;
-        padding: 20px;
-        height: 50vh;
-        width: 30vw;
-        z-index: 2;
-        text-align: center;
-    }
-
-    .nav-list>li{
-        display: block;
-        float: none;
-        padding: 20px;
-    }
-
     .container {
         padding: 0 10px
     }
@@ -537,8 +512,36 @@ footer > .container {
 */
 
 @media screen and (max-width: 680px) {
+
+    /*--------------navigation section-------------------*/
+
     nav {
         background-color: green
+    }
+
+    .hamburger-menu-icon{
+        display: inline-block;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+
+    .nav-list{
+        display: none;
+        position: absolute;
+        background-color: #111;
+        top: 40px;
+        left: 0;
+        padding: 20px;
+        height: 30vh;
+        width: 30vw;
+        z-index: 2;
+        text-align: center;
+    }
+
+    .nav-list>li{
+        display: block;
+        float: none;
+        padding: 20px;
     }
 
 
@@ -561,6 +564,9 @@ footer > .container {
         text-align: center;
         height: 100%;
         margin-bottom: 20px;
+    }
+    .copyright{
+        font-size: 11px;
     }
 
 }

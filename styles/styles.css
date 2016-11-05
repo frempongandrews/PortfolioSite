@@ -545,6 +545,11 @@ footer > .container {
         padding-top: 5px;
     }
 
+    .port-logo{
+        background-position: -200px -150px;
+    }
+
+
     /*--------------blog/info section-------------------*/
 
     footer .container{

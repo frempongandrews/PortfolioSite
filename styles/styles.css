@@ -409,9 +409,6 @@ footer > .container {
 @media screen and (max-width: 899px) {
 
     /*----------navigation section----------*/
-    nav {
-        background-color: red;
-    }
 
     .container {
         padding: 0 10px
@@ -515,10 +512,6 @@ footer > .container {
 
     /*--------------navigation section-------------------*/
 
-    nav {
-        background-color: green
-    }
-
     .hamburger-menu-icon{
         display: inline-block;
         margin-top: 5px;
@@ -572,7 +565,11 @@ footer > .container {
 }
 
 
-
+@media screen and (min-width: 679px) {
+    .nav-list {
+        display: block !important;
+    }
+}
 
 
 

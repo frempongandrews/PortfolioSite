@@ -536,6 +536,11 @@ footer > .container {
         float: none;
         padding: 20px;
     }
+    
+        header h3{
+        font-size: 16px;
+        font-weight: 300;
+    }
 
 
     /*--------------portfolio section-------------------*/
@@ -573,11 +578,6 @@ footer > .container {
 @media screen and (min-width: 679px) {
     .nav-list {
         display: block !important;
-    }
-
-    header h3{
-        font-size: 16px;
-        font-weight: 300;
     }
 
 }
